@@ -29,13 +29,13 @@ mask.close();//关闭遮罩
 ```
 plus.webview.currentWebview().setStyle({bottom:0});
 ```
-## //双页面下拉刷新的文字定位自定义
-- 在父页面添加下样式
+## 双页面下拉刷新的文字定位自定义
+在父页面添加下样式
 ```
 .mui-bar-nav ~ .mui-content .mui-pull-top-pocket {top: 205px!important;}
 ```
 ## picker控件监听按钮和点击遮罩事件
-- 需要在控件初始化后添加下代码
+需要在控件初始化后添加下代码
 ```
 mui(".mui-dtpicker-header ").on('tap','.mui-btn',function(){
   plus.webview.currentWebview().setStyle({top:190,bottom:110});
@@ -45,7 +45,7 @@ mui("body").on('tap',".mui-backdrop",function(){
 })
 ```
 ## mui上下拉控件
-- 注意需要预先初始化上下拉控件否则报错
+注意需要预先初始化上下拉控件否则报错
 ```
 //禁用上下拉：
 mui("#pullrefresh").pullRefresh().setStopped(true)

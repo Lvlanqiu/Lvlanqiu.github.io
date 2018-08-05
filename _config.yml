@@ -1,5 +1,5 @@
 # Site settings
-title: Lvlanqiu Blog
+title: Lv lanqiu Blog
 SEOTitle: 吕岚秋的博客 | Lvlanqiu Blog
 header-img: img/home-bg.jpg
 email: lvlanqiu@gmail.com
@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     山风禾火
+weibo_username:     u/3148928801
 #zhihu_username:     lvlanqiu
 github_username:    lvlanqiu
 #twitter_username:   lvlanqiu

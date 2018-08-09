@@ -22,8 +22,9 @@ var ctx = document.getContext('2d');//画笔对象
 - 设置笔触的颜色和粗细
     - cxt.strokeStyle
     - cxt.lineWidth
-- 一个小小的优化，笔触设置为圆头
+- 一个小小的优化，笔触设置为圆头-round，转折设置为圆角-round
     - cxt.lineCap
+    - cxt.lineJoin
 - 通过3个事件：touchstart、touchmove、touchend来监听记录用户的绘画路径，并将其画在canvas上
 
 ####然后我们再来详细说明一下3个监听事件中，我们要做的事情，大致就是 创建绘图路径-设置路径起点-绘出路径-关闭路径-渲染图形

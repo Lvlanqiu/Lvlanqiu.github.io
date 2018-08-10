@@ -7,7 +7,7 @@
 
 >> 屏幕旋转后，事件获得坐标有问题，貌似是自适应屏幕宽度的原因  
 
-> 2018-08-11更新解决了获得画布坐标不准确的问题，解决的多点触控的问题。附上demo的github地址[git@github.com:Lvlanqiu/CanvasLine.git](git@github.com:Lvlanqiu/CanvasLine.git)
+> 2018-08-11更新解决了获得画布坐标不准确的问题，解决的多点触控的问题。附上demo的github地址[git@github.com:Lvlanqiu/CanvasLine.git](https://github.com/Lvlanqiu/CanvasLine)
 
 开发基于h5、js
 ## 网上查看文档和看他人博客后得到如下解决方案 ##
